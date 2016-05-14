@@ -116,6 +116,7 @@
     <Compile Include="SQLite.cs" />
     <Compile Include="SQLiteAsync.cs" />
     <Compile Include="ViewModel\DataHelpersClass.cs" />
+    <Compile Include="ViewModel\ReadScores.cs" />
     <Compile Include="View\Game.xaml.cs">
       <DependentUpon>Game.xaml</DependentUpon>
     </Compile>
@@ -221,6 +222,8 @@
     </Content>
     <Content Include="Assets\BadgeLogo.png" />
     <Content Include="Assets\bg.jpg" />
+    <Content Include="Assets\champ.png" />
+    <Content Include="Assets\champion.png" />
     <Content Include="Assets\exit.png" />
     <Content Include="Assets\f_bg.jpg" />
     <Content Include="Assets\g_acc.png" />

@@ -32,7 +32,7 @@ namespace Emoticon2Tap
         {
             try
             {
-                var storage = await Windows.Storage.ApplicationData.Current.LocalFolder.GetFileAsync(filename);
+                var storage = await ApplicationData.Current.LocalFolder.GetFileAsync(filename);
                 return true;
             }
             catch (Exception)
@@ -42,9 +42,16 @@ namespace Emoticon2Tap
             }
             return false;
         }
+
+
+
         public App()
         {
-            
+
+            using (var conn = new SQLiteConnection(db_path))
+            {
+                conn.CreateTable<Model.Score>();
+            }
             // Global handler for uncaught exceptions.
             UnhandledException += Application_UnhandledException;
 

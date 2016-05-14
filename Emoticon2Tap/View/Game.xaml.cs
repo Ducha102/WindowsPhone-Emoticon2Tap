@@ -30,14 +30,15 @@ namespace Emoticon2Tap.View
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
             base.OnNavigatedTo(e);
-           // string name = "";
+            string name = string.Empty ;
             //timeTicked = Convert.ToInt16(NavigationContext.QueryString["time"]);
             //string level = NavigationContext.QueryString["level"];
-            lblTimer.Text = timeTicked.ToString();
-            //if (NavigationContext.QueryString.TryGetValue("name", out name))
-            //{
-            //    //txtPlayer.Text = name;
-            //}
+            // lblTimer.Text = timeTicked.ToString();
+            if (NavigationContext.QueryString.TryGetValue("name", out name))
+            {
+                txtPlayer.Text = name;
+            }
+
         }
 
 
@@ -241,12 +242,18 @@ namespace Emoticon2Tap.View
         {
             InitializeComponent();
             //TimerSetup();
-            
+            string name = string.Empty;
+            //if (NavigationContext.QueryString.TryGetValue("name", out name))
+            //{
+            //    txtPlayer.Text = name;
+            //}
+
         }
 
         private async void Emoticon_Tap(object sender, System.Windows.Input.GestureEventArgs e)
         {
             //TimerSetup();
+            DataHelpersClass dhc = new DataHelpersClass();
             
             txtScore.Text = "0";
             txtScore.Text = ScoreInit().ToString();
@@ -258,7 +265,7 @@ namespace Emoticon2Tap.View
                 //MessageBox.Show("Your Dead!! \n Your Score is: " + txtScore.Text);
                 if (MessageBoxResult.OK== MessageBox.Show("Your Dead!! \n Your Score "+txtScore.Text+"", "Save Score", MessageBoxButton.OKCancel))
                 {
-                    
+                    dhc.Insert(new Score(Convert.ToInt16(txtScore.Text) ,txtPlayer.Text));
                     MessageBox.Show("Save!!");
                 }
                 Emoji.IsHitTestVisible = false;

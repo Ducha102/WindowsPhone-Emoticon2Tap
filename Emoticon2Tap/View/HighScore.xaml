@@ -26,14 +26,41 @@
         <!--TitlePanel contains the name of the application and page title-->
         <StackPanel Grid.Row="0" Margin="12,17,0,28">
             <TextBlock Text="Emoticon2Tap" Style="{StaticResource PhoneTextNormalStyle}"/>
-            <TextBlock Text="High Score" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+            <TextBlock Text="High Score" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}" FontFamily="Comic Sans MS" Height="107"/>
         </StackPanel>
 
         <!--ContentPanel - place additional content here-->
-        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
-
+        <Grid x:Name="ContentPanel" Margin="12,146,12,0" Grid.RowSpan="2">
+            <ListBox Height="auto"  BorderThickness="1" MaxHeight="500" x:Name="listboxscore" Loaded="listboc" Margin="48,182,0,0">
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <!--<Border BorderThickness="1" >
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+                                <TextBlock Grid.Row="0" x:Name="NameTxt" TextWrapping="Wrap" Text="{Binding player}" FontSize="28" Foreground="White"/>
+                                <TextBlock Grid.Row="1" x:Name="PhoneTxt"  TextWrapping="Wrap" Text="{Binding score}" FontSize="26"/>
+                            </Grid>
+                        </Border>-->
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock TextWrapping="Wrap" Text="{Binding Id}" FontSize="28"/>
+                            <TextBlock  Text=" - "/>
+                            <TextBlock Grid.Row="0" x:Name="NameTxt" TextWrapping="Wrap" Text="{Binding player}" FontSize="30" Foreground="White" FontFamily="Comic Sans MS"  />
+                            <TextBlock Text=":     "/>
+                            <TextBlock Grid.Row="1" x:Name="scoreTxt"  TextWrapping="Wrap" Text="{Binding score}" FontSize="28" FontFamily="Comic Sans MS" />
+                        </StackPanel>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+            <Image x:Name="image" Source="/Assets/champ.png" HorizontalAlignment="Left" Height="176" Margin="35.41,-2,0,0" VerticalAlignment="Top" Width="364.666" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+                <Image.RenderTransform>
+                    <CompositeTransform SkewX="0.868" TranslateX="-0.985"/>
+                </Image.RenderTransform>
+            </Image>
         </Grid>
-        <phone:LongListSelector HorizontalAlignment="Left" Height="544" Margin="12,178,0,0" VerticalAlignment="Top" Width="456" Grid.RowSpan="2"/>
+
     </Grid>
 
 </phone:PhoneApplicationPage>

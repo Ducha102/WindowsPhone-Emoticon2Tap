@@ -312,6 +312,12 @@
     <AppxPackagedFile Include="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Assets\BadgeLogo.png">
       <PackagePath>Assets\BadgeLogo.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Assets\champ.png">
+      <PackagePath>Assets\champ.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Assets\champion.png">
+      <PackagePath>Assets\champion.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Assets\exit.png">
       <PackagePath>Assets\exit.png</PackagePath>
     </AppxPackagedFile>

@@ -1,6 +1,6 @@
-﻿<xapCache source="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Bin\x86\Debug\Emoticon2Tap_Debug_x86.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="5/12/2016 4:49:51 PM">
-  <file source="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Bin\x86\Debug\resources.pri" archivePath="resources.pri" lastWriteTime="5/12/2016 3:07:40 PM" />
-  <file source="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\obj\x86\Debug\Emoticon2Tap.dll" archivePath="Emoticon2Tap.dll" lastWriteTime="5/12/2016 4:49:48 PM" />
+﻿<xapCache source="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Bin\x86\Debug\Emoticon2Tap_Debug_x86.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="5/14/2016 4:16:26 PM">
+  <file source="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Bin\x86\Debug\resources.pri" archivePath="resources.pri" lastWriteTime="5/14/2016 4:09:56 PM" />
+  <file source="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\obj\x86\Debug\Emoticon2Tap.dll" archivePath="Emoticon2Tap.dll" lastWriteTime="5/14/2016 4:16:23 PM" />
   <file source="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Assets\01.png" archivePath="Assets\01.png" lastWriteTime="5/8/2016 9:16:54 PM" />
   <file source="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Assets\02.png" archivePath="Assets\02.png" lastWriteTime="5/8/2016 9:16:54 PM" />
   <file source="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Assets\03.png" archivePath="Assets\03.png" lastWriteTime="5/8/2016 9:16:54 PM" />
@@ -40,6 +40,8 @@
   <file source="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Assets\AlignmentGrid.png" archivePath="Assets\AlignmentGrid.png" lastWriteTime="5/8/2016 6:42:53 PM" />
   <file source="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Assets\BadgeLogo.png" archivePath="Assets\BadgeLogo.png" lastWriteTime="5/8/2016 7:11:19 PM" />
   <file source="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Assets\bg.jpg" archivePath="Assets\bg.jpg" lastWriteTime="5/8/2016 9:16:54 PM" />
+  <file source="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Assets\champ.png" archivePath="Assets\champ.png" lastWriteTime="5/14/2016 4:08:56 PM" />
+  <file source="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Assets\champion.png" archivePath="Assets\champion.png" lastWriteTime="5/14/2016 4:05:09 PM" />
   <file source="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Assets\exit.png" archivePath="Assets\exit.png" lastWriteTime="5/9/2016 12:27:13 AM" />
   <file source="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Assets\f_bg.jpg" archivePath="Assets\f_bg.jpg" lastWriteTime="5/8/2016 9:16:54 PM" />
   <file source="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Assets\g_acc.png" archivePath="Assets\g_acc.png" lastWriteTime="5/8/2016 9:38:13 PM" />
@@ -78,6 +80,6 @@
   <file source="F:\Project\Emoticon2Tap\Emoticon2Tap\packages\sqlite-net-wp8.3.8.5\build\windowsphone8\x86\Sqlite.dll" archivePath="Sqlite.dll" lastWriteTime="6/6/2014 10:32:20 AM" />
   <file source="C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\ExtensionSDKs\SQLite.WP80\3.12.2\Redist\Debug\x86\sqlite3.dll" archivePath="sqlite3.dll" lastWriteTime="5/12/2016 11:10:18 AM" />
   <file source="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Bin\x86\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="5/12/2016 11:18:48 AM" />
-  <file source="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\obj\x86\Debug\MDILProjectFiles.xml" archivePath="MDILProjectFiles.xml" lastWriteTime="5/12/2016 4:49:50 PM" />
-  <file source="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Bin\x86\Debug\AppxManifest.xml" archivePath="AppxManifest.xml" lastWriteTime="5/12/2016 3:07:42 PM" />
+  <file source="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\obj\x86\Debug\MDILProjectFiles.xml" archivePath="MDILProjectFiles.xml" lastWriteTime="5/14/2016 4:16:25 PM" />
+  <file source="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Bin\x86\Debug\AppxManifest.xml" archivePath="AppxManifest.xml" lastWriteTime="5/14/2016 4:09:58 PM" />
 </xapCache>
