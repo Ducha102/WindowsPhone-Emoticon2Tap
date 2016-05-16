@@ -132,8 +132,17 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>AppResources.resx</DependentUpon>
     </Compile>
+    <Compile Include="View\Guide.xaml.cs">
+      <DependentUpon>Guide.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\HighScore.xaml.cs">
       <DependentUpon>HighScore.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Multi.xaml.cs">
+      <DependentUpon>Multi.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\MultiStarte.xaml.cs">
+      <DependentUpon>MultiStarte.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\Settings.xaml.cs">
       <DependentUpon>Settings.xaml</DependentUpon>
@@ -160,7 +169,19 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="View\Guide.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="View\HighScore.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Multi.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\MultiStarte.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -226,11 +247,16 @@
     <Content Include="Assets\champion.png" />
     <Content Include="Assets\exit.png" />
     <Content Include="Assets\f_bg.jpg" />
+    <Content Include="Assets\guide.png" />
     <Content Include="Assets\g_acc.png" />
     <Content Include="Assets\highscore.png" />
     <Content Include="Assets\Logo.png" />
+    <Content Include="Assets\mutil.png" />
     <Content Include="Assets\newgame.png" />
     <Content Include="Assets\setting.png" />
+    <Content Include="Assets\settings.png" />
+    <Content Include="Assets\sgplay.png" />
+    <Content Include="Assets\single.png" />
     <Content Include="Assets\SplashScreen.png" />
     <Content Include="Assets\SquareTile150x150.png" />
     <Content Include="Assets\SquareTile71x71.png" />

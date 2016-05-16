@@ -32,6 +32,7 @@ namespace Emoticon2Tap.View
             string content= "";
             if (txtPlayer.Text != null)
             {
+
                 NavigationService.Navigate(new Uri("/View/Game.xaml?name=" + txtPlayer.Text + "&time=" + slideTime.Value+"&level="+ content, UriKind.RelativeOrAbsolute));
                 MessageBox.Show("Save Changed!!");
             }

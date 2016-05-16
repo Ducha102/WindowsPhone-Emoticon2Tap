@@ -1,0 +1,372 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="Emoticon2Tap.View.Guide"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" >
+        <Grid.Background>
+            <ImageBrush ImageSource="/Assets/bg.jpg"/>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel Grid.Row="0" Margin="12,17,0,28"/>
+
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+            <phone:Pivot HorizontalAlignment="Left" Height="649" Title="Emoticon2Tap" VerticalAlignment="Top" Width="446" Margin="0,-40,0,0">
+                <phone:PivotItem CacheMode="{x:Null}" Header="Singleplay" FontFamily="Comic Sans MS">
+                    <Grid Margin="0,0,-257,0" Height="528">
+                        <StackPanel Margin="0,0,-38,10">
+                            <TextBlock Text="Single Play Mode" FontSize="32" FontFamily="Comic Sans MS" />
+                            <TextBlock Text=""/>
+                            <Grid>
+                                <ScrollViewer >
+                                    <RichTextBox HorizontalScrollBarVisibility="Visible" TextAlignment="Justify" Width="391" Height="440" FontSize="27" Foreground="Gray">
+                                        <Paragraph TextAlignment="Justify">
+                                            1. At the start, you have default 60 seconds to
+                                            play in a session. You can change it in settings.
+                                        </Paragraph>
+                                        <Paragraph TextAlignment="Justify">
+                                            2. Tap the emoticon running on screen.
+
+                                        </Paragraph>
+
+                                        <Paragraph TextAlignment="Justify">
+                                            3. With each emoticon, you will received diffirent points.
+                                        </Paragraph>
+
+                                        <Paragraph TextAlignment="Justify">
+                                            4. With special emoticons, you can special point but maybe end you game.
+                                        </Paragraph>
+                                    </RichTextBox>
+                                </ScrollViewer>
+                                <!--<ListBox Margin="0,0,0,-244">
+                                    <StackPanel Orientation="Vertical" ScrollViewer.HorizontalScrollBarVisibility="Auto" Height="182">
+                                        <TextBlock Text="1. At the start, you have default 60 seconds to " Height="26" Width="auto" FontFamily="Comic Sans MS"/>
+                                        <TextBlock Text="" Height="8" />
+                                        <TextBlock Text="play in a session. You can change it in settings." Height="26" Width="auto" FontFamily="Comic Sans MS"/>
+                                        <TextBlock Text="" Height="8"/>
+                                        <TextBlock Text="2. Tap the emoticon running on screen." Width="auto"/>
+                                        <TextBlock Text="" Height="8"/>
+                                        <TextBlock Text="3. With each emoticon, you will received diffirent points." Width="auto" FontFamily="Comic Sans MS"/>
+                                        <TextBlock Text="" Height="8"/>
+                                        <TextBlock Text="points" />
+                                        <TextBlock Text="" Height="8"/>
+                                        <TextBlock Text="4.With special emoticons, you can special point " Height="26" FontFamily="Comic Sans MS"/>
+                                        <TextBlock Text="" Height="8"/>
+                                        <TextBlock Text="or maybe death!!." Height="26" FontFamily="Comic Sans MS"/>
+                                    </StackPanel>
+                                </ListBox>-->
+                            </Grid>
+
+                        </StackPanel>
+                    </Grid>
+                </phone:PivotItem>
+                <phone:PivotItem CacheMode="{x:Null}" Header="Multiplay" FontFamily="Comic Sans MS">
+                    <Grid Margin="0,0,-257,0" Height="528">
+                        <StackPanel Margin="0,0,-38,10">
+                            <TextBlock Text="Multi Play Mode" FontSize="32" FontFamily="Comic Sans MS" />
+                            <TextBlock Text=""/>
+                            <Grid>
+                                <ScrollViewer >
+                                    <RichTextBox HorizontalScrollBarVisibility="Visible" TextAlignment="Justify" Width="391" Height="440" FontSize="27" Foreground="Gray">
+                                        <Paragraph TextAlignment="Justify">
+                                            1. At the multiplay mode, you can play with your friends with Bluetooth Connection
+                                        </Paragraph>
+                                        <Paragraph TextAlignment="Justify">
+                                            2. Find peer game.
+                                        </Paragraph>
+
+                                        <Paragraph TextAlignment="Justify">
+                                            3. Request a connection or accept an incoming connection from game.
+                                        </Paragraph>
+
+                                        <Paragraph TextAlignment="Justify">
+                                            4. Send and receive score and playname using an open socket.
+                                        </Paragraph>
+                                    </RichTextBox>
+                                </ScrollViewer>
+                            </Grid>
+
+                        </StackPanel>
+                    </Grid>
+                </phone:PivotItem>
+
+                <phone:PivotItem CacheMode="{x:Null}" Header="Score Rule" FontFamily="Comic Sans MS">
+                    <Grid Margin="0,0,-257,0" Height="528">
+                        <StackPanel Margin="0,0,-38,10">
+
+                            <Grid>
+                                <ScrollViewer VerticalAlignment="Top" VerticalScrollBarVisibility="Auto" Height="591">
+                                    <StackPanel Orientation="Vertical">
+                                        <StackPanel Orientation="Horizontal">
+                                            <Image Source="/Assets/01.png" Height="82" Width="60"/>
+                                            <TextBlock Text="       "/>
+                                            <TextBlock Text="+20 point" FontSize="30" Height="42"/>
+                                        </StackPanel>
+
+                                        <StackPanel Orientation="Horizontal">
+                                            <Image Source="/Assets/02.png" Height="82" Width="60"/>
+                                            <TextBlock Text="       "/>
+                                            <TextBlock Text="-30 point" FontSize="30" Height="42"/>
+                                        </StackPanel>
+
+                                        <StackPanel Orientation="Horizontal">
+                                            <Image Source="/Assets/03.png" Height="82" Width="60"/>
+                                            <TextBlock Text="       "/>
+                                            <TextBlock Text="-05 point" FontSize="30" Height="42"/>
+                                        </StackPanel>
+
+                                        <StackPanel Orientation="Horizontal">
+                                            <Image Source="/Assets/04.png" Height="82" Width="60"/>
+                                            <TextBlock Text="       "/>
+                                            <TextBlock Text="-10 point" FontSize="30" Height="42"/>
+                                        </StackPanel>
+
+                                        <StackPanel Orientation="Horizontal">
+                                            <Image Source="/Assets/05.png" Height="82" Width="60"/>
+                                            <TextBlock Text="       "/>
+                                            <TextBlock Text="+5 point" FontSize="30" Height="42"/>
+                                        </StackPanel>
+
+                                        <StackPanel Orientation="Horizontal">
+                                            <Image Source="/Assets/06.png" Height="82" Width="60"/>
+                                            <TextBlock Text="       "/>
+                                            <TextBlock Text="-10 point" FontSize="30" Height="42"/>
+                                        </StackPanel>
+
+                                        <StackPanel Orientation="Horizontal">
+                                            <Image Source="/Assets/07.png" Height="82" Width="60"/>
+                                            <TextBlock Text="       "/>
+                                            <TextBlock Text="-50 point" FontSize="30" Height="42"/>
+                                        </StackPanel>
+
+                                        <StackPanel Orientation="Horizontal">
+                                            <Image Source="/Assets/08.png" Height="82" Width="60"/>
+                                            <TextBlock Text="       "/>
+                                            <TextBlock Text="-05 point" FontSize="30" Height="42"/>
+                                        </StackPanel>
+
+                                        <StackPanel Orientation="Horizontal">
+                                            <Image Source="/Assets/09.png" Height="82" Width="60"/>
+                                            <TextBlock Text="       "/>
+                                            <TextBlock Text="+25 point" FontSize="30" Height="42"/>
+                                        </StackPanel>
+
+                                        <StackPanel Orientation="Horizontal">
+                                            <Image Source="/Assets/10.png" Height="82" Width="60"/>
+                                            <TextBlock Text="       "/>
+                                            <TextBlock Text="+15 point" FontSize="30" Height="42"/>
+                                        </StackPanel>
+
+                                        <StackPanel Orientation="Horizontal">
+                                            <Image Source="/Assets/11.png" Height="82" Width="60"/>
+                                            <TextBlock Text="       "/>
+                                            <TextBlock Text="+30 point" FontSize="30" Height="42"/>
+                                        </StackPanel>
+
+                                        <StackPanel Orientation="Horizontal">
+                                            <Image Source="/Assets/12.png" Height="82" Width="60"/>
+                                            <TextBlock Text="       "/>
+                                            <TextBlock Text="+10 point" FontSize="30" Height="42"/>
+                                        </StackPanel>
+
+                                        <StackPanel Orientation="Horizontal">
+                                            <Image Source="/Assets/13.png" Height="82" Width="60"/>
+                                            <TextBlock Text="       "/>
+                                            <TextBlock Text="-1 point" FontSize="30" Height="42"/>
+                                        </StackPanel>
+
+                                        <StackPanel Orientation="Horizontal">
+                                            <Image Source="/Assets/14.png" Height="82" Width="60"/>
+                                            <TextBlock Text="       "/>
+                                            <TextBlock Text="-40 point" FontSize="30" Height="42"/>
+                                        </StackPanel>
+
+                                        <StackPanel Orientation="Horizontal">
+                                            <Image Source="/Assets/15.png" Height="82" Width="60"/>
+                                            <TextBlock Text="       "/>
+                                            <TextBlock Text="+20 point" FontSize="30" Height="42"/>
+                                        </StackPanel>
+
+                                        <StackPanel Orientation="Horizontal">
+                                            <Image Source="/Assets/16.png" Height="82" Width="60"/>
+                                            <TextBlock Text="       "/>
+                                            <TextBlock Text="+30 point" FontSize="30" Height="42"/>
+                                        </StackPanel>
+
+                                        <StackPanel Orientation="Horizontal">
+                                            <Image Source="/Assets/17.png" Height="82" Width="60"/>
+                                            <TextBlock Text="       "/>
+                                            <TextBlock Text="+0 point" FontSize="30" Height="42"/>
+                                        </StackPanel>
+
+                                        <StackPanel Orientation="Horizontal">
+                                            <Image Source="/Assets/18.png" Height="82" Width="60"/>
+                                            <TextBlock Text="       "/>
+                                            <TextBlock Text="+1 point" FontSize="30" Height="42"/>
+                                        </StackPanel>
+
+                                        <StackPanel Orientation="Horizontal">
+                                            <Image Source="/Assets/19.png" Height="82" Width="60"/>
+                                            <TextBlock Text="       "/>
+                                            <TextBlock Text="+0 point" FontSize="30" Height="42"/>
+                                        </StackPanel>
+
+                                        <StackPanel Orientation="Horizontal">
+                                            <Image Source="/Assets/20.png" Height="82" Width="60"/>
+                                            <TextBlock Text="       "/>
+                                            <TextBlock Text="+35 point" FontSize="30" Height="42"/>
+                                        </StackPanel>
+
+                                        <StackPanel Orientation="Horizontal">
+                                            <Image Source="/Assets/21.png" Height="82" Width="60"/>
+                                            <TextBlock Text="       "/>
+                                            <TextBlock Text="+25 point" FontSize="30" Height="42"/>
+                                        </StackPanel>
+
+                                        <StackPanel Orientation="Horizontal">
+                                            <Image Source="/Assets/22.png" Height="82" Width="60"/>
+                                            <TextBlock Text="       "/>
+                                            <TextBlock Text="+50 point" FontSize="30" Height="42"/>
+                                        </StackPanel>
+
+                                        <StackPanel Orientation="Horizontal">
+                                            <Image Source="/Assets/23.png" Height="82" Width="60"/>
+                                            <TextBlock Text="       "/>
+                                            <TextBlock Text="+25 point" FontSize="30" Height="42"/>
+                                        </StackPanel>
+
+                                        <StackPanel Orientation="Horizontal">
+                                            <Image Source="/Assets/24.png" Height="82" Width="60"/>
+                                            <TextBlock Text="       "/>
+                                            <TextBlock Text="-35 point" FontSize="30" Height="42"/>
+                                        </StackPanel>
+
+                                        <StackPanel Orientation="Horizontal">
+                                            <Image Source="/Assets/25.png" Height="82" Width="60"/>
+                                            <TextBlock Text="       "/>
+                                            <TextBlock Text="-10 point" FontSize="30" Height="42"/>
+                                        </StackPanel>
+
+                                        <StackPanel Orientation="Horizontal">
+                                            <Image Source="/Assets/26.png" Height="82" Width="60"/>
+                                            <TextBlock Text="       "/>
+                                            <TextBlock Text="+30 point" FontSize="30" Height="42"/>
+                                        </StackPanel>
+
+                                        <StackPanel Orientation="Horizontal">
+                                            <Image Source="/Assets/27.png" Height="82" Width="60"/>
+                                            <TextBlock Text="       "/>
+                                            <TextBlock Text="+20 point" FontSize="30" Height="42"/>
+                                        </StackPanel>
+
+                                        <StackPanel Orientation="Horizontal">
+                                            <Image Source="/Assets/28.png" Height="82" Width="60"/>
+                                            <TextBlock Text="       "/>
+                                            <TextBlock Text="+35 point" FontSize="30" Height="42"/>
+                                        </StackPanel>
+
+                                        <StackPanel Orientation="Horizontal">
+                                            <Image Source="/Assets/29.png" Height="82" Width="60"/>
+                                            <TextBlock Text="       "/>
+                                            <TextBlock Text="+40 point" FontSize="30" Height="42"/>
+                                        </StackPanel>
+
+                                        <StackPanel Orientation="Horizontal">
+                                            <Image Source="/Assets/30.png" Height="82" Width="60"/>
+                                            <TextBlock Text="       "/>
+                                            <TextBlock Text="+45 point" FontSize="30" Height="42"/>
+                                        </StackPanel>
+
+                                        <StackPanel Orientation="Horizontal">
+                                            <Image Source="/Assets/31.png" Height="82" Width="60"/>
+                                            <TextBlock Text="       "/>
+                                            <TextBlock Text="+0 point" FontSize="30" Height="42"/>
+                                        </StackPanel>
+
+                                        <StackPanel Orientation="Horizontal">
+                                            <Image Source="/Assets/32.png" Height="82" Width="60"/>
+                                            <TextBlock Text="       "/>
+                                            <TextBlock Text="+35 point" FontSize="30" Height="42"/>
+                                        </StackPanel>
+
+                                        <StackPanel Orientation="Horizontal">
+                                            <Image Source="/Assets/33.png" Height="82" Width="60"/>
+                                            <TextBlock Text="       "/>
+                                            <TextBlock Text="-15 point" FontSize="30" Height="42"/>
+                                        </StackPanel>
+
+                                        <StackPanel Orientation="Horizontal">
+                                            <Image Source="/Assets/34.png" Height="82" Width="60"/>
+                                            <TextBlock Text="       "/>
+                                            <TextBlock Text="-30 point" FontSize="30" Height="42"/>
+                                        </StackPanel>
+
+                                        <StackPanel Orientation="Horizontal">
+                                            <Image Source="/Assets/35.png" Height="82" Width="60"/>
+                                            <TextBlock Text="       "/>
+                                            <TextBlock Text="-45 point" FontSize="30" Height="42"/>
+                                        </StackPanel>
+
+                                        <StackPanel Orientation="Horizontal">
+                                            <Image Source="/Assets/36.png" Height="82" Width="60"/>
+                                            <TextBlock Text="       "/>
+                                            <TextBlock Text="-20 point" FontSize="30" Height="42"/>
+                                        </StackPanel>
+
+                                   
+                                    </StackPanel>
+                                </ScrollViewer>
+                            </Grid>
+
+                        </StackPanel>
+                    </Grid>
+                </phone:PivotItem>
+
+                <phone:PivotItem CacheMode="{x:Null}" Header="About" FontFamily="Comic Sans MS">
+                    <StackPanel Orientation="Vertical" Margin="0,0,-235,0">
+                        <TextBlock Text="Emoticon2Tap Game" FontSize="30" TextAlignment="Center" Margin="0,0,-59,0" FontWeight="Bold"/>
+                        <TextBlock Text="Version 1.0.0" TextAlignment="Center"/>
+
+                        <TextBlock Text="  "/>
+                        <TextBlock Text="  "/>
+
+                        <TextBlock Text="System Requirement" TextAlignment="Left" FontSize="25" />
+                        <TextBlock Text="  " Height="10"/>
+                        <TextBlock Text=" Windows Phone 8/8.1, Windows 10 Mobile"/>
+                        <TextBlock Text="  " Height="10"/>
+                        <TextBlock Text="  " Height="10"/>
+                        <TextBlock Text=" ----------------------- " TextAlignment="Center" Width="426"/>
+                        <TextBlock Text=" Developer by Duc Haviet" TextAlignment="Center"/>
+                        <TextBlock Text="  " Height="10"/>
+                        <TextBlock Text="Email: duc.hv@outlook.com" TextAlignment="Center"/>
+                        <TextBlock Text="  " Height="10"/>
+                        <TextBlock Text="Twitter: @duchaviet" TextAlignment="Center"/>
+                        <TextBlock Text="  " Height="10"/>
+                        <TextBlock Text="APROTRAIN APTECH, VN" TextAlignment="Center"/>
+                    </StackPanel>
+
+                    
+                </phone:PivotItem>
+            </phone:Pivot>
+
+        </Grid>
+    </Grid>
+
+</phone:PhoneApplicationPage>

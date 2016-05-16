@@ -46,11 +46,16 @@
     <File>Assets\champion.png</File>
     <File>Assets\exit.png</File>
     <File>Assets\f_bg.jpg</File>
+    <File>Assets\guide.png</File>
     <File>Assets\g_acc.png</File>
     <File>Assets\highscore.png</File>
     <File>Assets\Logo.png</File>
+    <File>Assets\mutil.png</File>
     <File>Assets\newgame.png</File>
     <File>Assets\setting.png</File>
+    <File>Assets\settings.png</File>
+    <File>Assets\sgplay.png</File>
+    <File>Assets\single.png</File>
     <File>Assets\SplashScreen.png</File>
     <File>Assets\SquareTile150x150.png</File>
     <File>Assets\SquareTile71x71.png</File>

@@ -96,3 +96,6 @@ F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\obj\x86\Debug\XapCacheFile.xml
 F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Bin\x86\Debug\Microsoft.Advertising.Mobile.dll
 F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Bin\x86\Debug\Microsoft.Advertising.Mobile.UI.dll
 F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Bin\x86\Debug\Microsoft.Phone.Controls.Maps.dll
+F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\obj\x86\Debug\View\Guide.g.cs
+F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\obj\x86\Debug\View\Multi.g.cs
+F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\obj\x86\Debug\View\MultiStarte.g.cs

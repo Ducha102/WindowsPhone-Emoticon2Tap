@@ -23,20 +23,37 @@ namespace Emoticon2Tap.View
         private int score = 0;
         private Images ig;
         public String im;
+        public  int gettime;
+        DataHelpersClass dhc = new DataHelpersClass();
         // public string time
 
-       
+
 
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
             base.OnNavigatedTo(e);
             string name = string.Empty ;
-            //timeTicked = Convert.ToInt16(NavigationContext.QueryString["time"]);
+            string time = string.Empty;
+            //gettime = Convert.ToInt16(NavigationContext.QueryString["time"]);
+            //if (e.IsNavigationInitiator == true) {
+            //    gettime = Convert.ToInt16(NavigationContext.QueryString["time"]);
+            //}
+            //else
+            //{
+            //    gettime = 60;
+            //}
+            GettimeSetting(gettime);
             //string level = NavigationContext.QueryString["level"];
             // lblTimer.Text = timeTicked.ToString();
-            if (NavigationContext.QueryString.TryGetValue("name", out name))
+            if (NavigationContext.QueryString.TryGetValue("name", out name) && NavigationContext.QueryString.TryGetValue("time", out time)) 
             {
                 txtPlayer.Text = name;
+                gettime = Convert.ToInt16(time);
+            }
+
+            else
+            {
+                gettime = 60;
             }
 
         }
@@ -66,21 +83,37 @@ namespace Emoticon2Tap.View
             timer.Start();
         }
 
+        public int InitTimeTicked ()
+        {
+           int timeTicked = GettimeSetting(gettime);
+            return timeTicked;
+        }
+
+        
+
         void Timer_Tick(object sender, object e)
         {
-           // timeTicked = Convert.ToInt16(lblTimer.Text);
+           //timeTicked = InitTimeTicked();
+            //timeTicked = GettimeSetting(gettime);
+            // timeTicked = Convert.ToInt16(lblTimer.Text);
+           
             lblTimer.Text = timeTicked.ToString();
-            timeTicked--;
             //im = images[new Random().Next(0, images.Length)];
             Emoji.Source = new BitmapImage(new Uri("/Assets/" + RandomImage(), UriKind.RelativeOrAbsolute));
 
             if (timeTicked <= timetoTick)
             {
                 timer.Stop();
+                if (MessageBoxResult.OK == MessageBox.Show("Time End!! \n Your Score " + txtScore.Text + "", "Are you want save Score?", MessageBoxButton.OKCancel))
+                {
+                    dhc.Insert(new Score(Convert.ToInt16(txtScore.Text), txtPlayer.Text));
+                    MessageBox.Show("Save!!");
+                }
                 //btnStart.IsHitTestVisible = false;
                 Emoji.IsHitTestVisible = false;
 
             }
+            timeTicked--;
             //throw new NotImplementedException();
         }
 
@@ -250,20 +283,25 @@ namespace Emoticon2Tap.View
 
         }
 
+        private static int  GettimeSetting( int timesetting)
+        {
+            return timesetting;
+        }
+
         private async void Emoticon_Tap(object sender, System.Windows.Input.GestureEventArgs e)
         {
             //TimerSetup();
-            DataHelpersClass dhc = new DataHelpersClass();
+           
             
             txtScore.Text = "0";
             txtScore.Text = ScoreInit().ToString();
 
-            if (RandomImage() == "02.png" || RandomImage() == "07.png" || RandomImage() == "35.png")
+            if (RandomImage() == "02.png" || RandomImage() == "07.png" || RandomImage() == "35.png" || timeTicked == timetoTick) 
             {
 
                 timer.Stop();
                 //MessageBox.Show("Your Dead!! \n Your Score is: " + txtScore.Text);
-                if (MessageBoxResult.OK== MessageBox.Show("Your Dead!! \n Your Score "+txtScore.Text+"", "Save Score", MessageBoxButton.OKCancel))
+                if (MessageBoxResult.OK== MessageBox.Show("Your Dead!! \n Your Score "+txtScore.Text+"", "Are you want save Score?", MessageBoxButton.OKCancel))
                 {
                     dhc.Insert(new Score(Convert.ToInt16(txtScore.Text) ,txtPlayer.Text));
                     MessageBox.Show("Save!!");
@@ -282,22 +320,26 @@ namespace Emoticon2Tap.View
 
         private void btnPause_Click(object sender, RoutedEventArgs e)
         {
-            NavigationService.Navigate(new Uri("/View/Game.xaml", UriKind.RelativeOrAbsolute));
+            NavigationService.Navigate(new Uri("/View/Settings.xaml", UriKind.RelativeOrAbsolute));
         }
 
         private void btnStart_Click(object sender, RoutedEventArgs e)
         {
-           // NavigationService.Navigate(new Uri("/View/Settings.xaml", UriKind.RelativeOrAbsolute));
-           if (timeTicked==60 || timeTicked<=timetoTick)
+            // 
+            NavigationService.Navigate(new Uri("/View/Game.xaml", UriKind.RelativeOrAbsolute));
+
+        }
+
+        private void DoubleTap_Start(object sender, System.Windows.Input.GestureEventArgs e)
+        {
+            if (timeTicked == 60 || timeTicked <= timetoTick)
             {
                 TimerSetup();
             }
-           else
+            else
             {
                 btnStart.IsHitTestVisible = false;
             }
         }
-
-        
     }
 }

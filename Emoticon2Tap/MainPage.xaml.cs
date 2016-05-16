@@ -52,12 +52,17 @@ namespace Emoticon2Tap
 
         private void Score_Tap(object sender, System.Windows.Input.GestureEventArgs e)
         {
-            NavigationService.Navigate(new Uri("/View/HighScore.xaml", UriKind.RelativeOrAbsolute));
         }
 
         private void Setting_Tapped(object sender, System.Windows.Input.GestureEventArgs e)
         {
-            NavigationService.Navigate(new Uri("/View/Settings.xaml", UriKind.RelativeOrAbsolute));
+
+            NavigationService.Navigate(new Uri("/View/HighScore.xaml", UriKind.RelativeOrAbsolute));
+        }
+
+        private void Guide_Tap(object sender, System.Windows.Input.GestureEventArgs e)
+        {
+            NavigationService.Navigate(new Uri("/View/Guide.xaml", UriKind.RelativeOrAbsolute));
         }
 
 

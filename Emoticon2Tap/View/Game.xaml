@@ -53,9 +53,9 @@
             <TextBlock x:Name="txtScore" HorizontalAlignment="Left" Margin="184,86,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" FontSize="26" FontFamily="Tahoma" TextAlignment="Center"/>
             <TextBlock x:Name="lblTimer" HorizontalAlignment="Left" Margin="184,122,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" FontSize="20" FontFamily="Tahoma" TextAlignment="Center"/>
             <TextBlock x:Name="txtPlayer" HorizontalAlignment="Left" Margin="184,162,0,0" TextWrapping="Wrap" Text="Player" VerticalAlignment="Top" FontSize="20" FontFamily="Tahoma" TextAlignment="Center"/>
-            <Image x:Name="Emoji" Source="/Assets/taptap.png" HorizontalAlignment="Left" Height="322" Margin="54,10,0,0" Grid.Row="2" VerticalAlignment="Top" Width="342" Tap="Emoticon_Tap"/>
-            <Button x:Name="btnPause" FontFamily="Comic Sans MS" Content="Replay" HorizontalAlignment="Left" Margin="242,364,0,0" Grid.Row="2" VerticalAlignment="Top" Width="154" Foreground="Gray" Click="btnPause_Click"/>
-            <Button x:Name="btnStart" FontFamily="Comic Sans MS" Content="Play" HorizontalAlignment="Left" Margin="54,364,0,0" Grid.Row="2" VerticalAlignment="Top" Width="154" Foreground="Gray" Click="btnStart_Click"  />
+            <Image x:Name="Emoji" Source="/Assets/taptap.png" HorizontalAlignment="Left" Height="322" Margin="54,10,0,0" Grid.Row="2" VerticalAlignment="Top" Width="342" Tap="Emoticon_Tap" DoubleTap="DoubleTap_Start"/>
+            <Button x:Name="btnPause" FontFamily="Comic Sans MS" Content="Settings" HorizontalAlignment="Left" Margin="242,401,0,0" Grid.Row="2" VerticalAlignment="Top" Width="154" Foreground="Gray" Click="btnPause_Click"/>
+            <Button x:Name="btnStart" FontFamily="Comic Sans MS" Content="Replay" HorizontalAlignment="Left" Margin="54,401,0,0" Grid.Row="2" VerticalAlignment="Top" Width="154" Foreground="Gray" Click="btnStart_Click"  />
 
         </Grid>
         <TextBlock x:Name="textBlock1" Grid.Column="1" HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Row="3" TextWrapping="Wrap" Text="Your Score: " VerticalAlignment="Top" FontSize="26" FontFamily="Comic Sans MS" TextAlignment="Center" Grid.RowSpan="2"/>
@@ -63,5 +63,11 @@
         <TextBlock x:Name="textBlock1_Copy1" Grid.Column="1" HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Row="5" TextWrapping="Wrap" Text="Player:  " VerticalAlignment="Top" FontSize="20" FontFamily="Comic Sans MS" TextAlignment="Center"/>
     </Grid>
 
-    
+    <phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar IsVisible="False" IsMenuEnabled="True">
+            <shell:ApplicationBarIconButton IconUri="/Assets/settings.png"  Text="Setting"/>
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>
 </phone:PhoneApplicationPage>
+
+    

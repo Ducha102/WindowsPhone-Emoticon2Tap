@@ -321,6 +321,9 @@
     <AppxPackagedFile Include="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Assets\exit.png">
       <PackagePath>Assets\exit.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Assets\guide.png">
+      <PackagePath>Assets\guide.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Assets\g_acc.png">
       <PackagePath>Assets\g_acc.png</PackagePath>
     </AppxPackagedFile>
@@ -331,11 +334,23 @@
       <PackagePath>Assets\Logo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Assets\mutil.png">
+      <PackagePath>Assets\mutil.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Assets\newgame.png">
       <PackagePath>Assets\newgame.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Assets\setting.png">
       <PackagePath>Assets\setting.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Assets\settings.png">
+      <PackagePath>Assets\settings.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Assets\sgplay.png">
+      <PackagePath>Assets\sgplay.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Assets\single.png">
+      <PackagePath>Assets\single.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Assets\SplashScreen.png">
       <PackagePath>Assets\SplashScreen.png</PackagePath>
