@@ -45,10 +45,15 @@
     <File>Assets\champ.png</File>
     <File>Assets\champion.png</File>
     <File>Assets\exit.png</File>
+    <File>Assets\FlipCycleTileLarge.png</File>
+    <File>Assets\FlipCycleTileMedium.png</File>
+    <File>Assets\FlipCycleTileSmall.png</File>
     <File>Assets\f_bg.jpg</File>
     <File>Assets\guide.png</File>
     <File>Assets\g_acc.png</File>
     <File>Assets\highscore.png</File>
+    <File>Assets\IconicTileMediumLarge.png</File>
+    <File>Assets\IconicTileSmall.png</File>
     <File>Assets\Logo.png</File>
     <File>Assets\mutil.png</File>
     <File>Assets\newgame.png</File>

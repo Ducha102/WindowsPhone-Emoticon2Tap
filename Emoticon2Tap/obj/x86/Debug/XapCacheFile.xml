@@ -1,6 +1,6 @@
-﻿<xapCache source="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Bin\x86\Debug\Emoticon2Tap_Debug_x86.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="5/16/2016 4:16:14 PM">
-  <file source="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Bin\x86\Debug\resources.pri" archivePath="resources.pri" lastWriteTime="5/16/2016 2:12:23 PM" />
-  <file source="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\obj\x86\Debug\Emoticon2Tap.dll" archivePath="Emoticon2Tap.dll" lastWriteTime="5/16/2016 4:16:11 PM" />
+﻿<xapCache source="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Bin\x86\Debug\Emoticon2Tap_Debug_x86.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="5/17/2016 10:53:43 PM">
+  <file source="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Bin\x86\Debug\resources.pri" archivePath="resources.pri" lastWriteTime="5/17/2016 10:45:42 PM" />
+  <file source="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\obj\x86\Debug\Emoticon2Tap.dll" archivePath="Emoticon2Tap.dll" lastWriteTime="5/17/2016 10:45:42 PM" />
   <file source="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Assets\01.png" archivePath="Assets\01.png" lastWriteTime="5/8/2016 9:16:54 PM" />
   <file source="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Assets\02.png" archivePath="Assets\02.png" lastWriteTime="5/8/2016 9:16:54 PM" />
   <file source="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Assets\03.png" archivePath="Assets\03.png" lastWriteTime="5/8/2016 9:16:54 PM" />
@@ -43,11 +43,16 @@
   <file source="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Assets\champ.png" archivePath="Assets\champ.png" lastWriteTime="5/14/2016 4:08:56 PM" />
   <file source="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Assets\champion.png" archivePath="Assets\champion.png" lastWriteTime="5/14/2016 4:05:09 PM" />
   <file source="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Assets\exit.png" archivePath="Assets\exit.png" lastWriteTime="5/9/2016 12:27:13 AM" />
+  <file source="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Assets\FlipCycleTileLarge.png" archivePath="Assets\FlipCycleTileLarge.png" lastWriteTime="5/17/2016 10:45:14 PM" />
+  <file source="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Assets\FlipCycleTileMedium.png" archivePath="Assets\FlipCycleTileMedium.png" lastWriteTime="5/17/2016 10:45:14 PM" />
+  <file source="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Assets\FlipCycleTileSmall.png" archivePath="Assets\FlipCycleTileSmall.png" lastWriteTime="5/17/2016 10:45:14 PM" />
   <file source="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Assets\f_bg.jpg" archivePath="Assets\f_bg.jpg" lastWriteTime="5/8/2016 9:16:54 PM" />
   <file source="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Assets\guide.png" archivePath="Assets\guide.png" lastWriteTime="5/16/2016 2:00:11 PM" />
   <file source="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Assets\g_acc.png" archivePath="Assets\g_acc.png" lastWriteTime="5/8/2016 9:38:13 PM" />
   <file source="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Assets\highscore.png" archivePath="Assets\highscore.png" lastWriteTime="5/16/2016 2:00:14 PM" />
-  <file source="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Assets\Logo.png" archivePath="Assets\Logo.png" lastWriteTime="5/8/2016 7:11:19 PM" />
+  <file source="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Assets\IconicTileMediumLarge.png" archivePath="Assets\IconicTileMediumLarge.png" lastWriteTime="5/17/2016 10:45:14 PM" />
+  <file source="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Assets\IconicTileSmall.png" archivePath="Assets\IconicTileSmall.png" lastWriteTime="5/17/2016 10:45:14 PM" />
+  <file source="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Assets\Logo.png" archivePath="Assets\Logo.png" lastWriteTime="5/17/2016 10:28:02 PM" />
   <file source="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Assets\mutil.png" archivePath="Assets\mutil.png" lastWriteTime="5/16/2016 2:00:14 PM" />
   <file source="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Assets\newgame.png" archivePath="Assets\newgame.png" lastWriteTime="5/16/2016 2:00:16 PM" />
   <file source="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Assets\setting.png" archivePath="Assets\setting.png" lastWriteTime="5/10/2016 8:32:32 PM" />
@@ -55,16 +60,16 @@
   <file source="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Assets\sgplay.png" archivePath="Assets\sgplay.png" lastWriteTime="5/16/2016 2:00:16 PM" />
   <file source="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Assets\single.png" archivePath="Assets\single.png" lastWriteTime="5/16/2016 2:00:11 PM" />
   <file source="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Assets\SplashScreen.png" archivePath="Assets\SplashScreen.png" lastWriteTime="5/8/2016 7:11:19 PM" />
-  <file source="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Assets\SquareTile150x150.png" archivePath="Assets\SquareTile150x150.png" lastWriteTime="5/8/2016 7:11:19 PM" />
-  <file source="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Assets\SquareTile71x71.png" archivePath="Assets\SquareTile71x71.png" lastWriteTime="5/8/2016 7:11:19 PM" />
-  <file source="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Assets\StoreLogo.png" archivePath="Assets\StoreLogo.png" lastWriteTime="5/8/2016 7:11:19 PM" />
-  <file source="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Assets\taptap.png" archivePath="Assets\taptap.png" lastWriteTime="5/9/2016 9:08:18 PM" />
-  <file source="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Assets\Tiles\FlipCycleTileLarge.png" archivePath="Assets\Tiles\FlipCycleTileLarge.png" lastWriteTime="5/8/2016 6:42:53 PM" />
-  <file source="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Assets\Tiles\FlipCycleTileSmall.png" archivePath="Assets\Tiles\FlipCycleTileSmall.png" lastWriteTime="5/8/2016 6:42:53 PM" />
-  <file source="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Assets\Tiles\IconicTileMediumLarge.png" archivePath="Assets\Tiles\IconicTileMediumLarge.png" lastWriteTime="5/8/2016 6:42:53 PM" />
-  <file source="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Assets\Tiles\IconicTileSmall.png" archivePath="Assets\Tiles\IconicTileSmall.png" lastWriteTime="5/8/2016 6:42:53 PM" />
+  <file source="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Assets\SquareTile150x150.png" archivePath="Assets\SquareTile150x150.png" lastWriteTime="5/17/2016 10:28:06 PM" />
+  <file source="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Assets\SquareTile71x71.png" archivePath="Assets\SquareTile71x71.png" lastWriteTime="5/17/2016 10:32:19 PM" />
+  <file source="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Assets\StoreLogo.png" archivePath="Assets\StoreLogo.png" lastWriteTime="5/17/2016 10:28:06 PM" />
+  <file source="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Assets\taptap.png" archivePath="Assets\taptap.png" lastWriteTime="5/17/2016 10:53:29 PM" />
+  <file source="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Assets\Tiles\FlipCycleTileLarge.png" archivePath="Assets\Tiles\FlipCycleTileLarge.png" lastWriteTime="5/17/2016 10:45:26 PM" />
+  <file source="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Assets\Tiles\FlipCycleTileSmall.png" archivePath="Assets\Tiles\FlipCycleTileSmall.png" lastWriteTime="5/17/2016 10:45:26 PM" />
+  <file source="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Assets\Tiles\IconicTileMediumLarge.png" archivePath="Assets\Tiles\IconicTileMediumLarge.png" lastWriteTime="5/17/2016 10:45:26 PM" />
+  <file source="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Assets\Tiles\IconicTileSmall.png" archivePath="Assets\Tiles\IconicTileSmall.png" lastWriteTime="5/17/2016 10:45:26 PM" />
   <file source="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Assets\welcomeScreen.jpg" archivePath="Assets\welcomeScreen.jpg" lastWriteTime="5/9/2016 12:33:22 AM" />
-  <file source="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Assets\WideLogo.png" archivePath="Assets\WideLogo.png" lastWriteTime="5/8/2016 7:11:19 PM" />
+  <file source="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Assets\WideLogo.png" archivePath="Assets\WideLogo.png" lastWriteTime="5/17/2016 10:28:06 PM" />
   <file source="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Assets\ws.png" archivePath="Assets\ws.png" lastWriteTime="5/9/2016 12:34:42 AM" />
   <file source="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\README_FIRST.txt" archivePath="README_FIRST.txt" lastWriteTime="5/10/2016 7:33:10 PM" />
   <file source="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Toolkit.Content\ApplicationBar.Add.png" archivePath="Toolkit.Content\ApplicationBar.Add.png" lastWriteTime="5/10/2016 7:33:10 PM" />
@@ -73,8 +78,8 @@
   <file source="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Toolkit.Content\ApplicationBar.Delete.png" archivePath="Toolkit.Content\ApplicationBar.Delete.png" lastWriteTime="5/10/2016 7:33:10 PM" />
   <file source="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Toolkit.Content\ApplicationBar.Select.png" archivePath="Toolkit.Content\ApplicationBar.Select.png" lastWriteTime="5/10/2016 7:33:09 PM" />
   <file source="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Bin\x86\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="5/12/2016 3:07:44 PM" />
-  <file source="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Bin\x86\Debug\Assets\ApplicationIcon.png" archivePath="Assets\ApplicationIcon.png" lastWriteTime="5/8/2016 6:42:53 PM" />
-  <file source="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Bin\x86\Debug\Assets\Tiles\FlipCycleTileMedium.png" archivePath="Assets\Tiles\FlipCycleTileMedium.png" lastWriteTime="5/8/2016 6:42:53 PM" />
+  <file source="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Bin\x86\Debug\Assets\ApplicationIcon.png" archivePath="Assets\ApplicationIcon.png" lastWriteTime="5/17/2016 10:28:02 PM" />
+  <file source="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Bin\x86\Debug\Assets\Tiles\FlipCycleTileMedium.png" archivePath="Assets\Tiles\FlipCycleTileMedium.png" lastWriteTime="5/17/2016 10:45:26 PM" />
   <file source="F:\Project\Emoticon2Tap\WP Library\Microsoft.Advertising.Mobile.dll" archivePath="Microsoft.Advertising.Mobile.dll" lastWriteTime="9/16/2013 11:09:00 AM" />
   <file source="F:\Project\Emoticon2Tap\WP Library\Microsoft.Advertising.Mobile.UI.dll" archivePath="Microsoft.Advertising.Mobile.UI.dll" lastWriteTime="9/16/2013 11:09:00 AM" />
   <file source="F:\Project\Emoticon2Tap\Emoticon2Tap\packages\WPtoolkit.4.2013.08.16\lib\wp8\Microsoft.Phone.Controls.Toolkit.dll" archivePath="Microsoft.Phone.Controls.Toolkit.dll" lastWriteTime="8/15/2013 1:04:48 PM" />
@@ -85,6 +90,6 @@
   <file source="F:\Project\Emoticon2Tap\Emoticon2Tap\packages\sqlite-net-wp8.3.8.5\build\windowsphone8\x86\Sqlite.dll" archivePath="Sqlite.dll" lastWriteTime="6/6/2014 10:32:20 AM" />
   <file source="C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\ExtensionSDKs\SQLite.WP80\3.12.2\Redist\Debug\x86\sqlite3.dll" archivePath="sqlite3.dll" lastWriteTime="5/12/2016 11:10:18 AM" />
   <file source="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Bin\x86\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="5/12/2016 11:18:48 AM" />
-  <file source="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\obj\x86\Debug\MDILProjectFiles.xml" archivePath="MDILProjectFiles.xml" lastWriteTime="5/16/2016 4:16:13 PM" />
-  <file source="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Bin\x86\Debug\AppxManifest.xml" archivePath="AppxManifest.xml" lastWriteTime="5/16/2016 2:12:26 PM" />
+  <file source="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\obj\x86\Debug\MDILProjectFiles.xml" archivePath="MDILProjectFiles.xml" lastWriteTime="5/17/2016 10:53:42 PM" />
+  <file source="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Bin\x86\Debug\AppxManifest.xml" archivePath="AppxManifest.xml" lastWriteTime="5/17/2016 10:45:44 PM" />
 </xapCache>

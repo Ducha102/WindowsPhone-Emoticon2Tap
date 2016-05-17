@@ -321,6 +321,15 @@
     <AppxPackagedFile Include="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Assets\exit.png">
       <PackagePath>Assets\exit.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Assets\FlipCycleTileLarge.png">
+      <PackagePath>Assets\FlipCycleTileLarge.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Assets\FlipCycleTileMedium.png">
+      <PackagePath>Assets\FlipCycleTileMedium.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Assets\FlipCycleTileSmall.png">
+      <PackagePath>Assets\FlipCycleTileSmall.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Assets\guide.png">
       <PackagePath>Assets\guide.png</PackagePath>
     </AppxPackagedFile>
@@ -329,6 +338,12 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Assets\highscore.png">
       <PackagePath>Assets\highscore.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Assets\IconicTileMediumLarge.png">
+      <PackagePath>Assets\IconicTileMediumLarge.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Assets\IconicTileSmall.png">
+      <PackagePath>Assets\IconicTileSmall.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Assets\Logo.png">
       <PackagePath>Assets\Logo.png</PackagePath>

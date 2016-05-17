@@ -246,10 +246,15 @@
     <Content Include="Assets\champ.png" />
     <Content Include="Assets\champion.png" />
     <Content Include="Assets\exit.png" />
+    <Content Include="Assets\FlipCycleTileLarge.png" />
+    <Content Include="Assets\FlipCycleTileMedium.png" />
+    <Content Include="Assets\FlipCycleTileSmall.png" />
     <Content Include="Assets\f_bg.jpg" />
     <Content Include="Assets\guide.png" />
     <Content Include="Assets\g_acc.png" />
     <Content Include="Assets\highscore.png" />
+    <Content Include="Assets\IconicTileMediumLarge.png" />
+    <Content Include="Assets\IconicTileSmall.png" />
     <Content Include="Assets\Logo.png" />
     <Content Include="Assets\mutil.png" />
     <Content Include="Assets\newgame.png" />

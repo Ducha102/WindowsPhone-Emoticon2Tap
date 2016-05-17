@@ -25,6 +25,7 @@
         <Extension Category="windows.backgroundTasks" EntryPoint="AgHost.BackgroundTask">
           <BackgroundTasks>
             <Task Type="systemEvent" />
+            <Task Type="pushNotification" />
           </BackgroundTasks>
         </Extension>
       </Extensions>
@@ -38,4 +39,7 @@
       </InProcessServer>
     </Extension>
   </Extensions>
+  <Capabilities>
+    <DeviceCapability Name="proximity" />
+  </Capabilities>
 </Package>
