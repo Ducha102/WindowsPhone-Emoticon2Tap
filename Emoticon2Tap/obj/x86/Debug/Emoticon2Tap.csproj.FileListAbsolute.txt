@@ -1,4 +1,3 @@
-F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\obj\x86\Debug\Emoticon2Tap.csprojResolveAssemblyReference.cache
 F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\obj\x86\Debug\App.g.cs
 F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\obj\x86\Debug\Page1.g.cs
 F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\obj\x86\Debug\View\Game.g.cs
@@ -99,3 +98,21 @@ F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Bin\x86\Debug\Microsoft.Phone.
 F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\obj\x86\Debug\View\Guide.g.cs
 F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\obj\x86\Debug\View\Multi.g.cs
 F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\obj\x86\Debug\View\MultiStarte.g.cs
+F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Bin\x86\Debug\System.Net.Http.dll
+F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Bin\x86\Debug\System.Net.Http.Extensions.dll
+F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Bin\x86\Debug\System.Net.Http.Primitives.dll
+F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Bin\x86\Debug\System.Net.Http.xml
+F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Bin\x86\Debug\System.Net.Http.Extensions.xml
+F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Bin\x86\Debug\System.Net.Http.Primitives.xml
+F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\obj\x86\Debug\System.Net.Http\en-US\System.Net.Http.SR.resw
+F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\obj\x86\Debug\System.Net.Http.pri
+F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\obj\x86\Debug\System.Net.Http\qualifiers.txt
+F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Bin\x86\Debug\Emoticon2Tap.dll.config
+F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Bin\x86\Debug\System.Net.Http.Formatting.dll
+F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\Bin\x86\Debug\System.Net.Http.Formatting.xml
+F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\obj\x86\Debug\System.Net.Http.Formatting\en-US\System.Net.Http.Properties.CommonWebApiResources.resw
+F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\obj\x86\Debug\System.Net.Http.Formatting\en-US\System.Net.Http.Properties.Resources.resw
+F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\obj\x86\Debug\System.Net.Http.Formatting.pri
+F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\obj\x86\Debug\System.Net.Http.Formatting\qualifiers.txt
+F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\obj\x86\Debug\View\ScoreCenter.g.cs
+F:\Project\Emoticon2Tap\Emoticon2Tap\Emoticon2Tap\obj\x86\Debug\Emoticon2Tap.csprojResolveAssemblyReference.cache

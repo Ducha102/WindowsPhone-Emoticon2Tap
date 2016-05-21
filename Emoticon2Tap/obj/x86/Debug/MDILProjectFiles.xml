@@ -22,6 +22,7 @@
     <File>Assets\17.png</File>
     <File>Assets\18.png</File>
     <File>Assets\19.png</File>
+    <File>Assets\1st.png</File>
     <File>Assets\20.png</File>
     <File>Assets\21.png</File>
     <File>Assets\22.png</File>
@@ -32,6 +33,7 @@
     <File>Assets\27.png</File>
     <File>Assets\28.png</File>
     <File>Assets\29.png</File>
+    <File>Assets\2nd.png</File>
     <File>Assets\30.png</File>
     <File>Assets\31.png</File>
     <File>Assets\32.png</File>
@@ -39,6 +41,7 @@
     <File>Assets\34.png</File>
     <File>Assets\35.png</File>
     <File>Assets\36.png</File>
+    <File>Assets\3rd.png</File>
     <File>Assets\AlignmentGrid.png</File>
     <File>Assets\BadgeLogo.png</File>
     <File>Assets\bg.jpg</File>
@@ -87,9 +90,17 @@
     <File>Microsoft.Phone.Controls.Toolkit.dll</File>
     <File Type="PCL">Newtonsoft.Json.dll</File>
     <File>Sqlite.winmd</File>
+    <File Type="PCL">System.Net.Http.dll</File>
+    <File Type="PCL">System.Net.Http.Extensions.dll</File>
+    <File Type="PCL">System.Net.Http.Formatting.dll</File>
+    <File Type="PCL">System.Net.Http.Primitives.dll</File>
     <File>Microsoft.Phone.Controls.Maps.dll</File>
     <File>Newtonsoft.Json.xml</File>
     <File>Sqlite.dll</File>
+    <File>System.Net.Http.xml</File>
+    <File>System.Net.Http.Extensions.xml</File>
+    <File>System.Net.Http.Formatting.xml</File>
+    <File>System.Net.Http.Primitives.xml</File>
     <File>sqlite3.dll</File>
     <File>WMAppManifest.xml</File>
     <File>AppxManifest.xml</File>

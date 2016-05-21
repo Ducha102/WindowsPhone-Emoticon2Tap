@@ -89,8 +89,6 @@ namespace Emoticon2Tap.View
             return timeTicked;
         }
 
-        
-
         void Timer_Tick(object sender, object e)
         {
            //timeTicked = InitTimeTicked();
@@ -104,9 +102,10 @@ namespace Emoticon2Tap.View
             if (timeTicked <= timetoTick)
             {
                 timer.Stop();
-                if (MessageBoxResult.OK == MessageBox.Show("Time End!! \n Your Score " + txtScore.Text + "", "Are you want save Score?", MessageBoxButton.OKCancel))
+                if (MessageBoxResult.OK == MessageBox.Show("Time End!! \n Your Score " + txtScore.Text + "", "Are you want save score?", MessageBoxButton.OKCancel))
                 {
-                    dhc.Insert(new Score(Convert.ToInt16(txtScore.Text), txtPlayer.Text));
+                    dhc.Insert(new Score(Convert.ToInt16(txtScore.Text), txtPlayer.Text, Convert.ToString(DateTime.Now)));
+                    PostScore(new Score(Convert.ToInt16(txtScore.Text), txtPlayer.Text, Convert.ToString(DateTime.Now)));
                     MessageBox.Show("Save!!");
                 }
                 //btnStart.IsHitTestVisible = false;
@@ -116,6 +115,11 @@ namespace Emoticon2Tap.View
             timeTicked--;
             //throw new NotImplementedException();
         }
+
+        public async static void PostScore(Score score) {
+            await ScoreClient.ScoreClient.SaveAsync(score); 
+        }
+
 
         public int ScoreInit()
         {
@@ -303,7 +307,8 @@ namespace Emoticon2Tap.View
                 //MessageBox.Show("Your Dead!! \n Your Score is: " + txtScore.Text);
                 if (MessageBoxResult.OK== MessageBox.Show("Your Dead!! \n Your Score "+txtScore.Text+"", "Are you want save Score?", MessageBoxButton.OKCancel))
                 {
-                    dhc.Insert(new Score(Convert.ToInt16(txtScore.Text) ,txtPlayer.Text));
+                    dhc.Insert(new Score(Convert.ToInt16(txtScore.Text) ,txtPlayer.Text, Convert.ToString(DateTime.Now)));
+                    PostScore(new Score(Convert.ToInt16(txtScore.Text), txtPlayer.Text, Convert.ToString(DateTime.Now)));
                     MessageBox.Show("Save!!");
                 }
                 Emoji.IsHitTestVisible = false;

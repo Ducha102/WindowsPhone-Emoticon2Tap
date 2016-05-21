@@ -13,10 +13,14 @@ namespace Emoticon2Tap.Model
         public int score { get; set; }
         public string player { get; set; }
 
+        public string playdate { get; set; }
+
         public Score() { }
-        public Score(int score, string player) {
+        public Score(int score, string player, string playdate) {
             this.score = score;
             this.player = player;
+            //this.Datetime = datetime
+            this.playdate = playdate;
         }
     }
 }

@@ -31,7 +31,7 @@
 
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Margin="12,146,12,0" Grid.RowSpan="2">
-            <ListBox Height="auto"  BorderThickness="1" MaxHeight="500" x:Name="listboxscore" Loaded="listboc" Margin="48,182,0,0">
+            <ListBox Height="auto"  BorderThickness="1" MaxHeight="500" x:Name="listboxscore" Loaded="listboc" Margin="120,182,0,64">
                 <ListBox.ItemTemplate>
                     <DataTemplate>
                         <!--<Border BorderThickness="1" >
@@ -45,22 +45,34 @@
                             </Grid>
                         </Border>-->
                         <StackPanel Orientation="Horizontal">
-                            <TextBlock TextWrapping="Wrap" Text="{Binding Id}" FontSize="28"/>
-                            <TextBlock  Text=" - "/>
+                            <!--<TextBlock TextWrapping="Wrap" Text="{Binding Id}" FontSize="28"/>
+                            <TextBlock  Text=" - "/>-->
                             <TextBlock Grid.Row="0" x:Name="NameTxt" TextWrapping="Wrap" Text="{Binding player}" FontSize="30" Foreground="White" FontFamily="Comic Sans MS"  />
-                            <TextBlock Text=":     "/>
+                            <TextBlock Text=":  "/>
                             <TextBlock Grid.Row="1" x:Name="scoreTxt"  TextWrapping="Wrap" Text="{Binding score}" FontSize="28" FontFamily="Comic Sans MS" />
+                            <TextBlock Text=" - "/>
+                            <TextBlock Text="{Binding playdate}" FontSize="16"/>
                         </StackPanel>
                     </DataTemplate>
                 </ListBox.ItemTemplate>
             </ListBox>
-            <Image x:Name="image" Source="/Assets/champ.png" HorizontalAlignment="Left" Height="176" Margin="35.41,-2,0,0" VerticalAlignment="Top" Width="364.666" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+            <Image x:Name="image" Source="/Assets/champ.png" HorizontalAlignment="Left" Height="170" Margin="81.425,8,0,0" VerticalAlignment="Top" Width="364.666" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
                 <Image.RenderTransform>
                     <CompositeTransform SkewX="0.868" TranslateX="-0.985"/>
                 </Image.RenderTransform>
             </Image>
+            <Button x:Name="button" Content="Go Score Center" HorizontalAlignment="Left" Margin="48,558,0,-20" VerticalAlignment="Top" Width="362" Height="84" Foreground="Black" Click="ScoreCenter_Click"/>
         </Grid>
-
+        <ListBox Margin="36,161,368,61" Grid.Row="1">
+            <ListBoxItem Content="1st" FontSize="30" Foreground="White" FontFamily="Comic Sans MS" />
+            <ListBoxItem Content="2nd" FontSize="30" Foreground="White" FontFamily="Comic Sans MS" />
+            <ListBoxItem Content="3rd" FontSize="30" Foreground="White" FontFamily="Comic Sans MS" />
+            <ListBoxItem Content="4th" FontSize="30" Foreground="White" FontFamily="Comic Sans MS" />
+            <ListBoxItem Content="5th" FontSize="30" Foreground="White" FontFamily="Comic Sans MS" />
+            <ListBoxItem Content="6th" FontSize="30" Foreground="White" FontFamily="Comic Sans MS" />
+            <ListBoxItem Content="7th" FontSize="30" Foreground="White" FontFamily="Comic Sans MS" />
+            <ListBoxItem Content="8th" FontSize="30" Foreground="White" FontFamily="Comic Sans MS" />
+        </ListBox>
     </Grid>
 
 </phone:PhoneApplicationPage>

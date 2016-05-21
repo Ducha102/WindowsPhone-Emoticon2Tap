@@ -25,5 +25,15 @@ namespace Emoticon2Tap.View
             db_score = rs.ReadAllScore();
             listboxscore.ItemsSource = db_score.OrderByDescending(i => i.score).ToList();
         }
+
+        private void ScoreCenter_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new Uri("/View/ScoreCenter.xaml", UriKind.RelativeOrAbsolute));
+        }
+
+        //private void ScoreCenter_Navigate(object sender, RoutedEventArgs e)
+        //{
+        //    NavigationService.Navigate(new Uri("/View/ScoreCenter.xaml/", UriKind.RelativeOrAbsolute));
+        //}
     }
 }
